@@ -1,0 +1,7 @@
+{
+  "name": "testing-phaser",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
