@@ -1,0 +1,9 @@
+.eslintrc.js
+/node_modules
+/ios
+/android
+/.git
+/build/**
+/coverage/**
+/docs/**
+/src/serviceWorker.ts
