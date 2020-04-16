@@ -58,5 +58,16 @@
     "prettier": "^2.0.4",
     "ts-jest": "^25.3.1"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "husky": {
+      "hooks": {
+        "pre-commit": "tsc --noEmit && lint-staged"
+      }
+  },
+  "lint-staged": {
+      "*.{js,ts,tsx}": [
+          "eslint --fix",
+          "git add"
+      ]
+  }
 }
